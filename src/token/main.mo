@@ -27,5 +27,9 @@ actor Token {
             return balances.get(who);
         } 
         */       
-    }
+    };
+
+    public query func getSymbol() : async Text {
+        return symbol;
+    } ;   
 }
